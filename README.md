@@ -7,12 +7,14 @@
 This project was build with the following
 - HTML
 - CSS
+- Javascript
 
 ## Practice Description
-> In this project I practiced using flex boxes to really make a responsive design with very little media queries
+> In this project I worked with flex boxes in a very
+complex landing page. As well I build a custom side nav bar that can open and close at the users choice. Additionally I worked with svg circles and the custom ranges of each.
 
 ### Static Composition
-![Static Composition 1 From Turing](images/static-comp.png)
+![Static Composition 2 From Turing](images/static-comp.png)
 
 ### My Assignment Screen Grab
 ![Screen Grab of My Assignment](images/user-comp.png)
