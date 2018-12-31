@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Static Comp 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Michael Krog's Static Composition One">
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <!-- FONTS -->
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+    <link href="css/all.css" rel="stylesheet">
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+  </head><!-- /End Head -->
+  <body>
+    <aside class="aside--sidebar__menu" id="side-Bar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeMobileNav()">&times;</a>
+      <section class="row-one-nav row-section">
+        <img class="profile-picture" src="images/me.jpeg" />
+        <p>Michael Krog <i class="far fa-angle-down"></i></p>
+      </section><!-- /End Photo -->
+      <section class="row-two-nav row-section">
+        <article class="row-inner">
+          <h3>Main</h3>
+          <ul>
+            <li><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-briefcase"></i> Jobs</li>
+            <li><i class="fas fa-file-alt"></i> Resumes</li>
+            <li><i class="fas fa-clipboard-list"></i> Tasks</li>
+            <li><i class="fas fa-calendar-alt"></i> Calendar</li>
+          </ul>
+        </article>
+      </section><!-- /End Main -->
+      <section class="row-three-nav row-section">
+        <article class="row-inner">
+          <h3>Admin</h3>
+          <ul>
+            <li><i class="fas fa-user-friends"></i> Users</li>
+            <li><i class="fas fa-map-marker-alt"></i> Locations</li>
+            <li><i class="fas fa-sitemap"></i> Workflows</li>
+            <li><i class="fas fa-copy"></i> Job Boards</li>
+            <li><i class="fas fa-chart-network"></i> Social</li>
+          </ul>
+        </article>
+      </section><!-- /End Admin -->
+      <section class="row-four-nav row-section">
+        <article class="row-inner">
+          <h3>Categories</h3>
+          <ul>
+            <li>
+              <input class="styled-checkbox" id="styled-checkbox-1" type="checkbox" checked>
+              <label for="styled-checkbox-1">Administrative</label>
+            </li>
+            <li>
+              <input class="styled-checkbox" id="styled-checkbox-2" type="checkbox">
+              <label for="styled-checkbox-2">Design
+            </li>
+            <li>
+              <input class="styled-checkbox" id="styled-checkbox-3" type="checkbox">
+              <label for="styled-checkbox-3">Executive
+            </li>
+            <li>
+              <input class="styled-checkbox" id="styled-checkbox-4" type="checkbox">
+              <label for="styled-checkbox-4">Human Resources
+            </li>
+          </ul>
+        </article>
+      </section>
+    </aside><!-- /End Left Navigation -->
+    <main class="main--page_content" id="main">
+      <section class="section--top_section">
+        <header class="header--top_navigation">
+          <section class="section--toggle__menu nav-click" id="nav-btn">
+            <i class="far fa-bars"></i>
+          </section>
+          <section class="section--search__bar">
+            <div class="search">
+              <button type="submit" class="searchButton">
+              <i class="far fa-search"></i>
+              </button>
+              <input type="text" class="searchTerm" placeholder="Search for a job, task or resume">
+            </div>
+          </section>
+          <section class="section--additional__links nav-click">
+            <i class="fas fa-user-plus"></i>
+          </section>
+          <section class="section--additional__links nav-click">
+            <i class="fas fa-folder-plus"></i>
+          </section>
+          <section class="section--additional__links nav-click">
+            <i class="fas fa-th"></i>
+          </section>
+        </header><!-- /End Top Navigation -->
+        <summary class="summary--bottom_navigation">
+          <article class="article--top_nav">
+            <section class="section--title_nav">
+              <h2 class="h2--top_nav">Customer Service Representative</h2>
+              <p><i class="fas fa-map-marker-alt"></i> San Francisco, CA &#8226; <span>Preview this post</span></p>
+            </section>
+            <section class="section--additional_nav">
+              <span class="span--icon"><i class="fas fa-circle"></i> Open</span>
+              <span class="span--icon"><i class="fas fa-bookmark"></i></span>
+              <span class="span--icon"><i class="fas fa-pencil"></i></span>
+              <span class="span--icon"><i class="fas fa-trash-alt"></i></span>
+            </section>
+          </article>
+          <article class="article--bottom_nav">
+            <ul class="ul--nav_titles">
+              <li class="li--nav_titles">Summary</li>
+              <li class="li--nav_titles">Applicants</li>
+              <li class="li--nav_titles">Job Board</li>
+              <li class="li--nav_titles">Interviews</li>
+              <li class="li--nav_titles">Activity</li>
+              <li class="li--nav_titles">Broadcast</li>
+              <li class="li--nav_titles">Notifications</li>
+            </ul>
+          </article>
+        </summary>
+      </section><!-- /End Top Navigation -->
+      <section class="section--main_content">
+        <article class="article--top_content">
+          <section class="section--cicle_content">
+            <div class="flex-wrapper">
+              <div class="single-chart">
+                <svg viewBox="0 0 36 36" class="circular-chart first">
+                  <path class="circle-bg"
+                    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                  <path class="circle" stroke-dasharray="80, 100"
+                    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                </svg>
+                <div class="additional"><h3>3,154</h3><span>Applicants</span></div>
+              </div>
+              <div class="single-chart">
+                <svg viewBox="0 0 36 36" class="circular-chart second">
+                  <path class="circle-bg"
+                    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                  <path class="circle" stroke-dasharray="40, 100"
+                    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                </svg>
+                <div class="additional"><h3>1,546</h3><span>Interviews</span></div>
+              </div>
+              <div class="single-chart">
+                <svg viewBox="0 0 36 36" class="circular-chart third">
+                  <path class="circle-bg"
+                    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                  <path class="circle"
+                    stroke-dasharray="25, 100"
+                    d="M18 2.0845
+                      a 15.9155 15.9155 0 0 1 0 31.831
+                      a 15.9155 15.9155 0 0 1 0 -31.831"
+                  />
+                </svg>
+                <div class="additional"><h3>912</h3><span>Forwards</span></div>
+              </div>
+            </div>
+            <div class="graph--button">
+              <button>TOTALS &#8226; Out of 5,231 views</button>
+            </div>
+          </section>
+          <section class="section--graph_content">
+            <img src="images/graph.jpeg" />
+            <div class="graph--button">
+              <button>Applicants/Day</button>
+            </div>
+          </section>
+        </article>
+        <article class="article--spacer_arrow">
+          <span class="span--arrow_btn">
+            <i class="fal fa-angle-up"></i>
+          </span>
+        </article>
+        <article class="article--bottom_content">
+          <section class="section--left_content">
+            <aside class="aside--content">
+              <header>
+                <section class="section--header">
+                  <div>Job Description</div>
+                  <div><button><i class="fas fa-pencil"></i> Edit</button></div>
+                </section>
+              </header>
+              <summary class="summary--section">
+                <section>
+                  <div>Position Title</div>
+                  <div>Customer Service Representative</div>
+                </section>
+                <section>
+                  <div>Location</div>
+                  <div>San Francisco, CA</div>
+                </section>
+                <section>
+                  <div>Employment Type</div>
+                  <div>Full-time</div>
+                </section>
+                <section>
+                  <div>Experience</div>
+                  <div>Mid-level</div>
+                </section>
+                <section>
+                  <div>Status</div>
+                  <div>Open</div>
+                </section>
+                <section>
+                  <div>Description</div>
+                  <div>The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times whild doing a backhand spring and eating a ham sandwhich.</div>
+                </section>
+                <section>
+                  <div>Hiring Lead</div>
+                  <div><img src=""/> Tom Tizzy</div>
+                </section>
+                <section>
+                  <div>Approved Salary</div>
+                  <div>$58,000</div>
+                </section>
+              </summary>
+            </aside>
+          </section>
+          <section class="section--right_content">
+            <aside class="aside--social_buttons">
+              <button><i class="fab fa-facebook-f"></i>Post to Facebook</button>
+              <button><i class="fab fa-twitter"></i>Tweet this Job</button>
+              <button><i class="fab fa-linkedin"></i>Post to Linkedin</button>
+            </aside>
+            <aside class="aside--social_content">
+              <h4 class="h4--social_headers"><i class="far fa-globe-americas"></i> Link to this Job</h4>
+              <p class="p--social_copy">Lorem ipsum dolor sit amet, consectetur adipis cing elit. Integer mollis neque eget vestibpend.</p>
+              <div class="div--social_buton">
+                <span>http://loremipsum.dol/sit amet</span>
+                <button>Copy</button>
+              </div>
+            </aside>
+            <aside class="aside--social_content">
+              <h4 class="h4--social_headers"><i class="far fa-browser"></i> Use the Button Widget</h4>
+              <p class="p--social_copy">This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
+              <div class="div--social_buton">
+                <span>script type="text/javascript" s...</span>
+                <button>Copy</button>
+              </div>
+            </aside>
+            <aside class="aside--social_content">
+              <h4 class="h4--social_headers"><i class="fas fa-paper-plane"></i> Upload Resumes by Email</h4>
+              <p class="p--social_copy">You can automatically uplaod multiple resumes to this job by emailing the address below.</p>
+              <div class="div--social_buton">
+                <span>tomtizzy@gmail.com</span>
+              </div>
+            </aside>
+          </section>
+        </article>
+      </section><!-- /End Main Content -->
+      <footer></footer><!-- /End Footer -->
+    </main><!-- /Page Content -->
+  </body><!-- /End Body -->
+  <script type="text/javascript" src="main.js"></script>
+</html><!-- /End HTML -->
