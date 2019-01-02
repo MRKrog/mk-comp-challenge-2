@@ -16,7 +16,6 @@ if (window.innerWidth < 960) {
 
 window.addEventListener('resize', function(){
   if (window.innerWidth > 960) {
-    
     navClick.addEventListener("click", desktopNav);
     navClick.removeEventListener("click", mobileNav);
     // sideBar.classList.add('closedMobileNav');
